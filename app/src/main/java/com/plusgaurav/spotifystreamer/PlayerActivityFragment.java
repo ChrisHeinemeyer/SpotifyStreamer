@@ -567,7 +567,7 @@ public class PlayerActivityFragment extends Fragment {
                 }).setApplicationName(getActivity().getString(R.string.app_name)).build();
 
                 query = youtube.search().list("id");
-                query.setKey("AIzaSyDmD2n10SLAimt0Uv8pclhx8D1le50AV10");
+                query.setKey("<--replace with your-->");
                 query.setQ(params[0]);
                 query.setType("video");
                 query.setFields("items(id/videoId)");
